@@ -22,6 +22,7 @@
 		A4554E1917FDC4B5005780ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4554DF817FDC4B4005780ED /* UIKit.framework */; };
 		A4554E2117FDC4B5005780ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4554E1F17FDC4B5005780ED /* InfoPlist.strings */; };
 		A4554E2317FDC4B5005780ED /* NSData_HexDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4554E2217FDC4B5005780ED /* NSData_HexDemoTests.m */; };
+		A4554E2E17FDC4C9005780ED /* NSData+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = A4554E2D17FDC4C9005780ED /* NSData+Hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		A4554E1E17FDC4B5005780ED /* NSData+HexDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSData+HexDemoTests-Info.plist"; sourceTree = "<group>"; };
 		A4554E2017FDC4B5005780ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4554E2217FDC4B5005780ED /* NSData_HexDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSData_HexDemoTests.m; sourceTree = "<group>"; };
+		A4554E2C17FDC4C9005780ED /* NSData+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hex.h"; sourceTree = "<group>"; };
+		A4554E2D17FDC4C9005780ED /* NSData+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				A4554E0D17FDC4B4005780ED /* ViewController.m */,
 				A4554E0F17FDC4B4005780ED /* Images.xcassets */,
 				A4554DFB17FDC4B4005780ED /* Supporting Files */,
+				A4554E2C17FDC4C9005780ED /* NSData+Hex.h */,
+				A4554E2D17FDC4C9005780ED /* NSData+Hex.m */,
 			);
 			path = "NSData+HexDemo";
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			files = (
 				A4554E0E17FDC4B4005780ED /* ViewController.m in Sources */,
 				A4554E0517FDC4B4005780ED /* AppDelegate.m in Sources */,
+				A4554E2E17FDC4C9005780ED /* NSData+Hex.m in Sources */,
 				A4554E0117FDC4B4005780ED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSData+HexDemo/NSData+HexDemo-Prefix.pch";
 				INFOPLIST_FILE = "NSData+HexDemo/NSData+HexDemo-Info.plist";
@@ -405,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSData+HexDemo/NSData+HexDemo-Prefix.pch";
 				INFOPLIST_FILE = "NSData+HexDemo/NSData+HexDemo-Info.plist";
